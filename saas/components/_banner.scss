@@ -1,0 +1,17 @@
+.banner {
+  margin-top: 50px;
+  .services {
+    ul {
+      li {
+        width: calc(33.33% - 20px);
+        margin: 10px;
+      }
+    }
+  }
+  .left-section {
+    margin-right: 20px;
+  }
+  .right-section {
+    margin-left: 20px;
+  }
+}
