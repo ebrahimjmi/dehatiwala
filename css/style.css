@@ -4,6 +4,23 @@
 .light-color {
   color: #e3e3e3; }
 
+p {
+  margin-bottom: 24px !important;
+  line-height: 28px;
+  font-size: 18px;
+  font-weight: 400; }
+  p:last-child {
+    margin-bottom: 0; }
+
+.fs-16 {
+  font-size: 16px; }
+
+.fs-14 {
+  font-size: 14px; }
+
+.fs-12 {
+  font-size: 12px; }
+
 ul,
 li,
 p,
@@ -105,5 +122,8 @@ a {
     margin-right: 20px; }
   .banner .right-section {
     margin-left: 20px; }
+
+.why-us ul li {
+  padding-right: 0 !important; }
 
 /*# sourceMappingURL=style.css.map */
