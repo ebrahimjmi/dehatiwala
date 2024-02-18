@@ -61,6 +61,10 @@ a {
   text-decoration: none !important;
   color: #000 !important;
 }
+
+.form-control:focus {
+  box-shadow: none;
+}
 // slider
 .banner-slider {
   .slick-slide {
