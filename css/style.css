@@ -21,6 +21,9 @@ p {
 .fs-12 {
   font-size: 12px; }
 
+.pl-4 {
+  padding-left: 1.5rem !important; }
+
 ul,
 li,
 p,
@@ -55,6 +58,12 @@ img {
 
 .mt35 {
   margin-top: 35px; }
+
+.pt-6 {
+  padding-top: 5rem !important; }
+
+.pt-7 {
+  padding-top: 6rem !important; }
 
 a {
   text-decoration: none !important;
@@ -112,7 +121,8 @@ a {
   top: 62px;
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
   padding: 15px 20px;
-  white-space: nowrap; }
+  white-space: nowrap;
+  z-index: 9999; }
 .header-menu li:hover .dropdown {
   display: block; }
 

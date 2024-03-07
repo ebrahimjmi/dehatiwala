@@ -7,19 +7,28 @@ p {
   line-height: 28px;
   font-size: 18px;
   font-weight: 400;
+
   &:last-child {
     margin-bottom: 0;
   }
 }
+
 .fs-16 {
   font-size: 16px;
 }
+
 .fs-14 {
   font-size: 14px;
 }
+
 .fs-12 {
   font-size: 12px;
 }
+
+.pl-4 {
+  padding-left: 1.5rem !important;
+}
+
 ul,
 li,
 p,
@@ -31,15 +40,18 @@ h3 {
   list-style-type: none;
   padding-left: 0 !important;
 }
+
 h2 {
   font-size: 36px;
   font-weight: 600;
   line-height: 44px;
 }
+
 img {
   display: block;
   max-width: 100%;
 }
+
 .card {
   border: 0 !important;
 }
@@ -48,15 +60,27 @@ img {
 .mt50 {
   margin-top: 50px;
 }
+
 .mt45 {
   margin-top: 45px;
 }
+
 .mt40 {
   margin-top: 40px;
 }
+
 .mt35 {
   margin-top: 35px;
 }
+
+.pt-6 {
+  padding-top: 5rem !important;
+}
+
+.pt-7 {
+  padding-top: 6rem !important;
+}
+
 a {
   text-decoration: none !important;
   color: #000 !important;
@@ -65,6 +89,11 @@ a {
 .form-control:focus {
   box-shadow: none;
 }
+
+select:focus-visible {
+  // border: 1px solid #000;
+}
+
 // slider
 .banner-slider {
   .slick-slide {
@@ -72,9 +101,11 @@ a {
     justify-content: center;
   }
 }
+
 .slick-slider {
   margin: 0 -10px;
 }
+
 .slick-initialized .slick-slide {
   margin: 0 10px;
 }
@@ -96,9 +127,11 @@ a {
   transition: all 0.5s ease;
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
 }
+
 .next-arrow {
   right: 0;
 }
+
 .slick-dots {
   display: flex;
   justify-content: center;
